@@ -7,7 +7,11 @@ namespace APPControlePedidos
         public void verificarLogin(string usu,int sen)
         {
             if (usu != "" && sen != 999999999);
-            Console.WriteLine("Logado com sucesso!\n");
+            Console.WriteLine("\n");
+            Console.WriteLine("Logado com sucesso!");
+            Console.WriteLine("Aperte alguma tecla para continuar.");
+            Console.ReadKey();
+            Console.Clear();
         }
     }
 }
